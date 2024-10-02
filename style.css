@@ -7,10 +7,12 @@ nav{
     
 }
 
+
 li{
     display: inline;
     text-align: center;
     list-style-type: none;
+    margin: 0 10px 0 0;
     background-color: #e6edf7;
     font: #39f;
     letter-spacing: 1px;
