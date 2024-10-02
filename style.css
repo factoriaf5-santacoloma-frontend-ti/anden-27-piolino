@@ -6,8 +6,6 @@ nav{
     letter-spacing: 1px;
     
 }
-
-
 li{
     display: inline;
     text-align: center;
@@ -17,7 +15,6 @@ li{
     font: #39f;
     letter-spacing: 1px;
 }
-
 li:hover{
     font: #585858;
 }
