@@ -5,19 +5,34 @@ body{
 }
 
 #principal {
-    
     position:fixed;
     font-family: system-ui, -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
     line-height: normal;
     letter-spacing: 1px;
     border-bottom: 3px solid  #39f; background: #e6edf7;
-    width: 100%; 
-    height: 10%;
+    width: 100%;
+    top: 0;
+    
+}
+.centrado{
+    display: flex;
+    justify-content: center;
 }
 
 
+.banner{
+   
+    display: block;
+    margin:  20px auto;
+    
+    
+}
 
+h1{
+    padding-top: 5%;
+    text-align: center;
+}
 
 nav li{
     display: inline;
