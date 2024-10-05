@@ -1,4 +1,4 @@
-html,
+html
 body {
     margin: 0;
     padding: 0;
@@ -6,6 +6,7 @@ body {
 }
 
 #principal {
+    text-align: center;
 
     position: fixed;
     background-color: #e6edf7;
@@ -17,10 +18,6 @@ body {
     letter-spacing: 1px;
     width: 100%;
     height: 5%;
-}
-
-nav ul {
-    text-align: center;
 }
 
 nav li {
@@ -35,30 +32,30 @@ nav li {
 }
 
 
-li:hover {
-    font: #585858;
-}
+
 
 
 .centrado {
     width: 900px;
-    margin:auto;
-    border:  1px solid #faf7f7; 
+    margin: auto;
+    border: 1px solid #faf7f7;
     box-shadow: 0px 0px 10px 13px rgb(231, 231, 231);
-    padding:30px;
+    padding: 30px;
     
 
 }
-.link{
-    display: flex;
-    justify-content:space-evenly;
+
+.link {
+    text-align: center;
+    justify-content: space-evenly;
     border-bottom: 1px solid rgb(0, 0, 0);
-
-}
-
-
-.link a{
-    padding: 1px 10px;
+    background-color: #faf7f7;
+    border-bottom: 0px solid black;
+    display: flex;
+    height: 8px;
+    
+    
+    
 }
 
 .blog {
@@ -75,7 +72,7 @@ li:hover {
 }
 
 .titulo1 {
-    background-color: #e6edf7;
+
     color: #848484;
     font-family: cursive;
     font-size: 35px;
@@ -95,29 +92,48 @@ p {
     color: #666666;
 }
 
-.caja1{
+.caja1 {
     display: flex;
-    
+
 }
 
-main{
+main {
     width: 70%;
     padding: 0px;
-    
+
 }
 
-aside{
+aside {
     width: 30%;
     padding: 15px;
 }
-figure{
+
+figure {
     color: #666666;
 }
 
-.avio{
+.avio {
     position: fixed;
     height: 100px;
     width: 100px;
     bottom: 0vh;
     right: 0vw;
+}
+
+.imagen89 {
+    width: 250px;
+
+}
+
+.linea {
+    border-top: 7px dotted rgb(207, 207, 207);
+
+}
+.punto{
+    list-style-type: none;
+    
+
+}
+a{
+    text-decoration: none;
 }
