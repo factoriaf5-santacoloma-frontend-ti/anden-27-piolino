@@ -48,8 +48,7 @@ nav li {
 .link {
     text-align: center;
     justify-content: space-evenly;
-    border-bottom: 1px solid rgb(0, 0, 0);
-    background-color: #faf7f7;
+    border-bottom: 1px solid rgb(236, 225, 225);
     border-bottom: 0px solid black;
     display: flex;
     height: 8px;
@@ -121,7 +120,7 @@ figure {
 }
 
 .imagen89 {
-    width: 250px;
+    width: 286px;
 
 }
 
@@ -131,9 +130,47 @@ figure {
 }
 .punto{
     list-style-type: none;
-    
 
 }
+.lista{
+    padding: 10px
+}
+
+
 a{
     text-decoration: none;
 }
+
+#debajo{
+    list-style-type: none;
+    text-align: center;
+    justify-content: space-evenly;
+    border-bottom: 1px solid rgb(0, 0, 0);
+    background-color: #faf7f7;
+    border-bottom: 0px solid black;
+    display: flex;
+    
+}
+
+h4{
+    background-color:  #f8c5df;
+    font-family: cursive;
+    font-size:23px;
+    width: 160px;
+  
+}
+a:visited {
+
+    color: rgb(99, 124, 235);
+
+}
+#boton-final{
+    background-color: #39f;
+    width: 60px;
+    color: aliceblue;
+}
+
+.izquierda-color{
+      color: rgb(99, 124, 235);
+}
+
