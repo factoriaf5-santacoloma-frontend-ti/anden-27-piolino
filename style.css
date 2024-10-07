@@ -1,4 +1,8 @@
-html
+@font-face {
+    font-family: cursive;
+    src: url(assets/fonts/Corsiva-normal-400-100.ttf);
+}
+
 body {
     margin: 0;
     padding: 0;
@@ -6,15 +10,11 @@ body {
 }
 
 #principal {
-<<<<<<< HEAD
-    position:fixed;
-=======
     text-align: center;
 
     position: fixed;
     background-color: #e6edf7;
     border-bottom: 1px solid #39f;
->>>>>>> 4e79710e99500d0663838b889079bf99a9760d03
     top: 0;
     font-family: system-ui, 'Segoe UI', 'Open Sans', 'Helvetica Neue', sans-serif;
     font-size: 16px;
@@ -75,9 +75,8 @@ nav li {
 }
 
 .titulo1 {
-
-    color: #848484;
     font-family: cursive;
+    color: #848484;
     font-size: 35px;
     line-height: normal;
     letter-spacing: 5px;
