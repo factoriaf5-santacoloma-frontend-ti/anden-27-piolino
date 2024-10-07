@@ -1,9 +1,4 @@
-@font-face {
-    font-family: cursive;
-    src: url(assets/fonts/Corsiva-normal-400-100.ttf);
-}
-
-body {
+html body {
     margin: 0;
     padding: 0;
     background-color: #faf7f7;
@@ -45,7 +40,7 @@ nav li {
     border: 1px solid #faf7f7;
     box-shadow: 0px 0px 10px 13px rgb(231, 231, 231);
     padding: 30px;
-    
+
 
 }
 
@@ -56,9 +51,9 @@ nav li {
     border-bottom: 0px solid black;
     display: flex;
     height: 8px;
-    
-    
-    
+
+
+
 }
 
 .blog {
@@ -131,20 +126,22 @@ figure {
     border-top: 7px dotted rgb(207, 207, 207);
 
 }
-.punto{
+
+.punto {
     list-style-type: none;
 
 }
-.lista{
+
+.lista {
     padding: 10px
 }
 
 
-a{
+a {
     text-decoration: none;
 }
 
-#debajo{
+#debajo {
     list-style-type: none;
     text-align: center;
     justify-content: space-evenly;
@@ -152,28 +149,34 @@ a{
     background-color: #faf7f7;
     border-bottom: 0px solid black;
     display: flex;
-    
+
 }
 
-h4{
-    background-color:  #f8c5df;
-    font-family: cursive;
-    font-size:23px;
-    width: 160px;
-  
+h4 {
+    font-family: "open Sans";
+    background-color: #f8c5df;
+    font-size: 16px;
+    font-weight: bold;
+    width: 230px;
+    height: 24px;
+    text-align: center;
+    color: #d93d8b;
+
+
 }
+
 a:visited {
 
     color: rgb(99, 124, 235);
 
 }
-#boton-final{
+
+#boton-final {
     background-color: #39f;
     width: 60px;
     color: aliceblue;
 }
 
-.izquierda-color{
-      color: rgb(99, 124, 235);
+.izquierda-color {
+    color: rgb(99, 124, 235);
 }
-
